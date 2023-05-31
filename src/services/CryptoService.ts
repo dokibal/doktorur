@@ -9,4 +9,4 @@ class CryptoService{
     }
 }
 
-export default CryptoService();
+export default new CryptoService();
