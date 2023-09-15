@@ -69,12 +69,6 @@
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
-.logo {
-  background-image: url(../Assets/logor.png);
-  background-size: cover;
-  width: 90px;
-  height: 80px;
-}
 
 .nav-link {
   color: white !important;
@@ -114,9 +108,9 @@
     background-color: #4158d0;
     background-image: linear-gradient(
       43deg,
-      #4158d0 0%,
-      #c850c0 0%,
-      #ffcc70 100%
+      #448Aff 0%,
+      #4CAF50 46%,
+      #CddC39 100%
     );
   }
   .nav-link {
@@ -141,9 +135,9 @@
   background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #4526A0 0%,
+    #448Aff 46%,
+    #4CAF50 100%
   );
 }
 .row {
@@ -273,9 +267,9 @@
   background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #448Aff 0%,
+    #4CAF50 46%,
+    #CddC39 100%
   );
   padding-top: 110px;
 }
@@ -352,9 +346,9 @@
   background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #448Aff 0%,
+    #4CAF50 46%,
+    #CddC39 100%
   );
 }
 .project-section {
@@ -434,9 +428,9 @@
   background-color: #4158d0;
   background-image: linear-gradient(
     43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #448Aff 0%,
+    #4CAF50 46%,
+    #CddC39 100%
   );
   padding-top: 110px;
 }

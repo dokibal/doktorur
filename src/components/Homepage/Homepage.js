@@ -2,12 +2,7 @@ import React from 'react'
 import '../../pages/style.css';
 import { Container, Row, Col } from 'react-bootstrap'
 import Text from '../Homepage/Text'
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
 function Home() {
   return (
@@ -19,22 +14,18 @@ function Home() {
             <h2 className='nametext'>I'm Balázs Doktor</h2>
             <span></span>
             <Text />
-            <button onClick={() => {
-              window.open("https://github.com/rahulvijay81");
+            <button onClick={() =>
+            {
+              window.open("https://www.linkedin.com/in/bal%C3%A1zs-doktor-922643181/");
             }}
-              className='socailmediabtn'><AiFillGithub className='icon' /></button>
-            <button onClick={() => {
-              window.open("https://www.linkedin.com/in/rahulvijay81/");
+              className='socailmediabtn'><FaLinkedinIn className='icon' />
+            </button>
+            <button onClick={() =>
+            {
+              window.open("https://www.facebook.com/dokibalazs8");
             }}
-              className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
-            <button onClick={() => {
-              window.open("https://twitter.com/rahulvijay8156");
-            }}
-              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
-            <button onClick={() => {
-              window.open("https://instagram.com/rahulvijay81");
-            }}
-              className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+              className='socailmediabtn'><FaFacebook className='icon' />
+            </button>
           </Col>
 
           <Col md={5}>
