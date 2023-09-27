@@ -321,11 +321,14 @@
   color: #e8e8e8;
 }
 .webimage {
-  max-width: 500px;
-  height: 350px;
-  background-image: url(../Assets/web-removebg-preview.png);
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding-top: 60%;
+  background-image: url(../Assets/profile.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 50%;
 }
 @media (max-width: 767px) {
   .aboutpagebackground {
