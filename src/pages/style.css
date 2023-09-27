@@ -322,6 +322,8 @@
 }
 .webimage {
   width: 60%;
+  max-width: 250px;
+  max-height: 250px;
   margin-left: 20%;
   margin-top: 5%;
   padding-top: 60%;
