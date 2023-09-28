@@ -17,7 +17,7 @@ function Aboutpage() {
                         </p>
                         <p className='aboutdetails'>
                         However, my thirst for knowledge led me to bridge the gap between engineering and software development even further. 
-                        I transitioned to Robert Bosch Kft., where I took on the role of a C++ developer. During my time at Robert Bosch Kft., 
+                        I transitioned to Robert Bosch Kft., where I took on the role of a C++ developer. During my time there  
                         I specialized in hardware-centric C++ software development, primarily focusing on developing control software for cameras.
                         </p>
                         <p className='aboutdetails'>
