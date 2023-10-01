@@ -36,18 +36,18 @@ function Aboutpage() {
                         <ul className='skilllist'>
                             <Row>
                                 <h3>Skills</h3>
-                                <Col sm={4} md={4}>
+                                <Col md={4}>
                                     <li>Java</li>
                                     <li>Spring</li>
                                     <li>Spring Boot</li>
                                 </Col>
-                                <Col sm={4} md={4}>
+                                <Col md={4}>
                                     <li>React</li>
                                     <li>TypeScript</li>
                                     <li>HTML</li>
                                     <li>CSS</li>
                                 </Col>
-                                <Col sm={4} md={4}>
+                                <Col md={4}>
                                     <li>C++</li>
                                     <li>Git</li>
                                     <li>Scrum</li>

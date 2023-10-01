@@ -140,9 +140,6 @@
     #ffaa00 100%
   );
 }
-.row {
-  padding-top: 80px;
-}
 
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
@@ -485,4 +482,10 @@
   .contactpara br {
     display: none;
   }
+}
+.socialcontainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

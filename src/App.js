@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import wakeupService from './services/WakeupService';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -15,9 +16,11 @@ function App() {
     x: 0,
     y: 0
   });
-  console.log(mousePosition);
 
   useEffect(() => {
+
+    wakeupService.wakeup();
+
     const mouseMove = e => {
       setMousePosition({
         x: e.clientX,
