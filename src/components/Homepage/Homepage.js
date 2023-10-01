@@ -18,13 +18,13 @@ function Home() {
             {
               window.open("https://www.linkedin.com/in/bal%C3%A1zs-doktor-922643181/");
             }}
-              className='socailmediabtn'><FaLinkedinIn className='icon' />
+              className='socailmediabtn'><FaLinkedinIn color='black' className='icon' />
             </button>
             <button onClick={() =>
             {
               window.open("https://www.facebook.com/dokibalazs8");
             }}
-              className='socailmediabtn'><FaFacebook className='icon' />
+              className='socailmediabtn'><FaFacebook color='black' className='icon' />
             </button>
           </Col>
 

@@ -10,11 +10,11 @@ function Contactpage() {
       <Container>
         <h2 className="contacthead">Get In Touch</h2>
         <p className="contactpara">
-          I’m currently searching for opportunities for a backend developer role.
+          I’m currently searching for opportunities for a backend developer role. 
           <br />
           If you believe that my skills and experience align with your team's needs
           <br />
-          or would like to discuss potential collaborations, please feel free to reach out to me.
+          or would like to discuss potential collaborations, please feel free to reach out to me. 
           <br />
           I would be thrilled to connect with you and explore how I can contribute to your projects.
         </p>

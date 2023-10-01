@@ -2,11 +2,14 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-
-
 function ProjectCard(props) {
+
+  const navigateToProjectSite = () => {
+    window.location.replace(props.ghLink);
+  };
+
   return (
-    <Card className="project-card-view">
+    <Card className="project-card-view" onClick={navigateToProjectSite}>
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
