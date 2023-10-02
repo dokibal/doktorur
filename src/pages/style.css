@@ -446,6 +446,9 @@
   font-family: 'Poppins';
   color: white;
 }
+.clear{
+  clear:both;
+}
 .contactbtn {
   display: block;
   margin: 0 auto;

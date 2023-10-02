@@ -11,18 +11,22 @@ function Contactpage() {
         <h2 className="contacthead">Get In Touch</h2>
         <p className="contactpara">
           I’m currently searching for opportunities for a backend developer role. 
-          <br />
+          <div class="clear"></div>
           If you believe that my skills and experience align with your team's needs
-          <br />
+          <div class="clear"></div>
           or would like to discuss potential collaborations, please feel free to reach out to me. 
-          <br />
+          <div class="clear"></div>
           I would be thrilled to connect with you and explore how I can contribute to your projects.
         </p>
         <Row style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
             <button onClick={() => {
               window.open("https://www.linkedin.com/in/bal%C3%A1zs-doktor-922643181/");
             }}
-              className='socailmediabtn'><FaLinkedinIn className='icon' />
+              className='socailmediabtn'>
+                <FaLinkedinIn
+                  color='black'
+                  className='icon'
+                />
             </button>
             <button 
               href="mailto:doktor.balazs1@gmail.com"
