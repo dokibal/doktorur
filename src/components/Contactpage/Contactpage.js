@@ -5,6 +5,11 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { EnvelopeFill } from "react-bootstrap-icons";
 
 function Contactpage() {
+
+  const sendMail = () => {
+    window.location="mailto:doktor.balazs1@gmail.com";
+  }
+
   return (
     <div className="contactbackground">
       <Container>
@@ -29,7 +34,7 @@ function Contactpage() {
                 />
             </button>
             <button 
-              href="mailto:doktor.balazs1@gmail.com"
+              onClick={sendMail}
               className='socailmediabtn'>
                 <EnvelopeFill
                   color="black"
